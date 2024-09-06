@@ -15,7 +15,7 @@ import { profileDropMenu } from '../../constants/index';
 const UserProfile = ({ openedDropDown, setOpenedDropDown }) => {
 
     return (
-        <div className="ml-3 sm:ml-5">
+        <div className="ml-4 sm:ml-5">
             <div
                 className="rounded-full overflow-hidden cursor-pointer mr-[0.8rem] z-30"
                 onClick={ () => (openedDropDown === 2) ? setOpenedDropDown(-1) : setOpenedDropDown(2) }

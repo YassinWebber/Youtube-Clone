@@ -2,7 +2,7 @@
 import PopulerCategories from '../data/populerCategories';
 
 // Dependencies Importing
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 // Assets Importing
 import { LeftArrowIcon, RightArrowIcon } from '../assets';
@@ -11,14 +11,11 @@ const Categories = () => {
 
     const [ activedCategoryId, setActivedCategoryId ] = useState(1);
 
-    const [ isRightDisplayed, setIsRightDisplayed ] = useState(false);
-    const [ isLeftDisplayed, setIsLeftDisplayed ] = useState(true);
-
-    const categoriesRef = useRef();
-
+    const [ isRightDisplayed ] = useState(false);
+    const [ isLeftDisplayed ] = useState(true);
 
     return (
-        <div className="relative h-full" style={ { transform: 'translateX(-0px)' } }>
+        <div className="relative h-full overflow-x-hidden max-w-screen" style={ { transform: 'translateX(-0px)', maxWidth: '100vw' } }>
 
             { !isLeftDisplayed &&
                 <div className="bg-gradient-to-r from-[#0f0f0f] to-transparent w-[100px] h-full absolute flex items-center top-0 left-0">

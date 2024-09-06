@@ -52,7 +52,7 @@ function App () {
   return (
     <main className={ `max-w-screen grid grid-rows-[54px_1fr] grid-cols-[${isSidebarCollapsed ? '240' : '72'}px_1fr] max-[792px]:grid-cols-[100vw] font-normal font-Roboto` } style={ { scrollbarGutter: 'stable' } }>
 
-      <div className="row-span-1 col-span-2 sticky top-0 z-10 w-full" >
+      <div className="row-span-1 col-span-2 sticky top-0 z-10 max-w-screen" >
         <Header toggleSidebar={ toggleSidebar } />
       </div>
 
