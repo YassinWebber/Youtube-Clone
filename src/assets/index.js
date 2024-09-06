@@ -2,7 +2,7 @@
 import BurgerMenu from './header assets/burger-menu.svg';
 import YoutubeLogo from './header assets/youtube-logo.svg';
 import SearchIcon from './header assets/search-icon.svg';
-import XIcon from './header assets/x-icon.svg';
+import XIcon from './header assets/X-icon.svg';
 import Mic from './header assets/mic.svg';
 import CreateVideoIcon from './header assets/create-video.svg';
 
