@@ -13,7 +13,7 @@ const Header = () => {
     const [ openedDropDown, setOpenedDropDown ] = useState(-1);
 
     return (
-        <div className="max-w-screen flex justify-between max-h-[54px] overflow-y-hidden items-center bg-[#0f0f0f] sm:px-[16px] px-[20  px] flex-grow overflow-x-hidden max-w-screen" style={ { maxWidth: '100vw' } }>
+        <div className="max-w-screen flex justify-between max-h-[54px] overflow-y-hidden items-center bg-[#0f0f0f] sm:px-[16px] px-[24px] flex-grow overflow-x-hidden max-w-screen" style={ { maxWidth: '100vw' } }>
             <div className="flex h-full items-center">
                 <div className="p-[0.5rem] rounded-full hover:bg-[#272727]">
                     <img

@@ -14,6 +14,15 @@ import { Routes, Route } from 'react-router-dom';
 
 function App () {
 
+  function detectOverflow () {
+    document.querySelectorAll('*').forEach(function (el) {
+      if (el.scrollWidth > el.clientWidth) {
+        console.log('Overflowing element:', el);
+      }
+    });
+  }
+  detectOverflow();
+
   const [ isSidebarCollapsed, setIsSidebarCollapsed ] = useState(false);
 
   const isSmallScreen = () => {
@@ -50,7 +59,7 @@ function App () {
   };
 
   return (
-    <main className={ `max-w-screen grid grid-rows-[54px_1fr] grid-cols-[${isSidebarCollapsed ? '240' : '72'}px_1fr] max-[792px]:grid-cols-[100vw] font-normal font-Roboto` } style={ { scrollbarGutter: 'stable' } }>
+    <main className={ `max-w-screen grid grid-rows-[54px_1fr] grid-cols-[${isSidebarCollapsed ? '240' : '72'}px_1fr] max-[792px]:grid-cols-1 font-normal font-Roboto` } style={ { scrollbarGutter: 'stable' } }>
 
       <div className="row-span-1 col-span-2 sticky top-0 z-10 max-w-screen" >
         <Header toggleSidebar={ toggleSidebar } />
@@ -60,7 +69,7 @@ function App () {
         <SideBar isSidebarCollapsed={ isSidebarCollapsed } />
       </div>
 
-      <div className="col-start-2 col-end-2 max-[792px]:col-start-1 row-start-2 row-end-2">
+      <div className="col-start-2 col-end-2 max-[792px]:col-start-1 row-start-2 row-end-2 max-[792px]:w-[90%] max-[792px]:mx-auto max-[792px]:max-w-screen">
         <Routes>
           <Route element={ <Home /> } path="/"></Route>
           <Route element={ <Shorts /> } path="/shorts"></Route>
