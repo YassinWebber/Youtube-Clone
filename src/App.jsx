@@ -14,15 +14,6 @@ import { Routes, Route } from 'react-router-dom';
 
 function App () {
 
-  function detectOverflow () {
-    document.querySelectorAll('*').forEach(function (el) {
-      if (el.scrollWidth > el.clientWidth) {
-        console.log('Overflowing element:', el);
-      }
-    });
-  }
-  detectOverflow();
-
   const [ isSidebarCollapsed, setIsSidebarCollapsed ] = useState(false);
 
   const isSmallScreen = () => {
@@ -69,7 +60,7 @@ function App () {
         <SideBar isSidebarCollapsed={ isSidebarCollapsed } />
       </div>
 
-      <div className="col-start-2 col-end-2 max-[792px]:col-start-1 row-start-2 row-end-2 max-[792px]:w-[90%] max-[792px]:mx-auto max-[792px]:max-w-screen">
+      <div className="col-start-2 col-end-2 max-[792px]:col-start-1 row-start-2 row-end-2 max-[792px]:mx-auto max-[792px]:max-w-screen" style={ { scrollbarGutter: "stable" } }>
         <Routes>
           <Route element={ <Home /> } path="/"></Route>
           <Route element={ <Shorts /> } path="/shorts"></Route>
