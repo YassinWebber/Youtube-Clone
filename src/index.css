@@ -25,3 +25,8 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+
+.smallscreen-sidebar-opened>body {
+    overflow-y: hidden;
+    background-color: red;
+}

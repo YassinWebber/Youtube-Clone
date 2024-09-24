@@ -5,6 +5,7 @@ import GrayLine from './GrayLine';
 import Header from './header components/Header';
 
 // Header Components
+import HeaderLeftSide from './header components/HeaderLeftSide';
 import SearchInput from './header components/SearchInput';
 import VideosNotification from './header components/VideosNotification';
 import VideoNotification from './header components/VideoNotification';
@@ -13,7 +14,8 @@ import UserProfile from './header components/UserProfile';
 
 // SideBar
 import SideBar from './SideBar';
-import CollapsedSideBar from './CollapsedSideBar';
+import LargeSidebar from './LargeSidebar';
+import CollapsedSidebar from './CollapsedSidebar';
 
 // Homepage Components
 import Categories from './Categories';
@@ -27,6 +29,8 @@ export {
     VideoNotification,
     UserProfile,
     SideBar,
-    CollapsedSideBar,
+    LargeSidebar,
+    CollapsedSidebar,
     Categories,
+    HeaderLeftSide,
 };

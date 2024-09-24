@@ -327,12 +327,12 @@ export const sidebarSections = [
                 label: 'Playlists',
                 path: '/playlists',
             },
-            {
-                icon: YourVideosIcon,
-                activedIcon: YourVideosIcon,
-                label: 'Your videos',
-                path: '/your-videos',
-            },
+            // {
+            //     icon: YourVideosIcon,
+            //     activedIcon: YourVideosIcon,
+            //     label: 'Your videos',
+            //     path: '/your-videos',
+            // },
             {
                 icon: WatchLaterIcon,
                 activedIcon: ActivedWatchLaterIcon,

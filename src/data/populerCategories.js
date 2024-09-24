@@ -75,6 +75,34 @@ const categories = [
         name: 'New to you',
         id: 19,
     },
+    {
+        name: 'New to you',
+        id: 20,
+    },
+    {
+        name: 'New to you',
+        id: 21,
+    },
+    {
+        name: 'New to you',
+        id: 22,
+    },
+    {
+        name: 'New to you',
+        id: 23,
+    },
+    {
+        name: 'New to you',
+        id: 24,
+    },
+    {
+        name: 'New to you',
+        id: 25,
+    },
+    {
+        name: 'New to you',
+        id: 26,
+    },
 ];
 
 export default categories;

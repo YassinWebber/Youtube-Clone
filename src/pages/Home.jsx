@@ -6,18 +6,18 @@ import { Categories } from '../components';
 
 const Home = () => {
 
-    // const videoImg = 'https://i.ytimg.com/vi/6ZEdexqVrBs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjC8T1GqVhOuNUC8pxhPE1bBuNsw';
-
+    const videoImg = 'https://i.ytimg.com/vi/6ZEdexqVrBs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjC8T1GqVhOuNUC8pxhPE1bBuNsw';
+     
     return (
-        <div className="grid grid-rows-[56px_1fr] max-w-screen">
+        <div className="grid grid-rows-[56px_1fr]  max-w-screen px-6">
             <div className="bg-[#0f0f0f] row-start-1 row-end-2 sticky top-[54px] overflow-x-hidden max-w-screen" style={ { maxWidth: '100vw' } } >
                 <Categories />
             </div>
-            <div className="p-4">
+            <div className="py-5">
                 <div className="grid gap-4 homepage-grid">
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -32,10 +32,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -52,7 +51,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -69,7 +68,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -86,7 +85,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -103,7 +102,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -120,7 +119,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -137,7 +136,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -154,7 +153,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -171,7 +170,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -188,7 +187,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -205,7 +204,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -222,7 +221,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -239,7 +238,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -256,7 +255,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -273,7 +272,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -290,7 +289,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -307,7 +306,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -324,7 +323,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -341,7 +340,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -358,7 +357,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -375,7 +374,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -392,7 +391,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -409,7 +408,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -426,7 +425,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -443,7 +442,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -460,7 +459,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -477,7 +476,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -494,7 +493,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -511,7 +510,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -528,7 +527,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -545,7 +544,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -562,7 +561,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -579,7 +578,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -596,7 +595,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -613,7 +612,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -630,7 +629,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -647,7 +646,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -664,7 +663,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -681,7 +680,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -698,7 +697,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -715,7 +714,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -732,7 +731,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -749,7 +748,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -766,7 +765,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -783,7 +782,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -800,7 +799,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -817,7 +816,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -834,7 +833,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -851,7 +850,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -868,7 +867,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -885,7 +884,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -902,7 +901,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -919,7 +918,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -936,7 +935,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -953,7 +952,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -970,7 +969,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -987,7 +986,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1004,7 +1003,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1021,7 +1020,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1038,7 +1037,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1055,7 +1054,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1072,7 +1071,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1089,7 +1088,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1106,7 +1105,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1123,7 +1122,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1140,7 +1139,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1157,7 +1156,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1174,7 +1173,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1191,7 +1190,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1208,7 +1207,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1225,7 +1224,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1242,7 +1241,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1259,7 +1258,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1276,7 +1275,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1293,7 +1292,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1310,7 +1309,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1327,7 +1326,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1344,7 +1343,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1361,7 +1360,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1378,7 +1377,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1395,7 +1394,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1412,7 +1411,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">
@@ -1429,1316 +1428,7 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col gap-3 mb-8">
                         <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
-                        </div>
-                        <div className="flex gap-3">
-                            <div className="w-9 h-9 rounded-full overflow-hidden">
-                                <img src={ ProfilePic } />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="font-semibold text-md text-white">How to master React.js</h3>
-                                <div className="text-[#a6a6a6] text-sm">
-                                    <p>Web Dev Simplfied</p>
-                                    <p>2M Views • 1 Month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-3 mb-8">
-                        <div className="w-full bg-[#919191] rounded-xl overflow-hidden aspect-video">
-                            <img className="object-cover rounded-xl" />
+                            <img className="object-cover rounded-xl" src={ videoImg } />
                         </div>
                         <div className="flex gap-3">
                             <div className="w-9 h-9 rounded-full overflow-hidden">

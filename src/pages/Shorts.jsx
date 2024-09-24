@@ -1,7 +1,8 @@
 
 const Shorts = () => {
     return (
-        <div className="">
+        <div className="bg-green-600">
+            .
         </div>
     );
 };
