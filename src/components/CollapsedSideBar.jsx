@@ -4,11 +4,8 @@ import { collapsedSideBarLinks } from "../constants";
 // Dependencies Importing
 import { Link, useLocation } from "react-router-dom";
 
-// Contexts Importing 
-import { useSideBarContext } from "../contexts/sideBarContext";
 
-const CollapsedSidebar = () => {
-    const { isLargeScreenOpened } = useSideBarContext();
+const CollapsedSidebar = ({ isLargeScreenOpened }) => {
 
     const location = useLocation();
 

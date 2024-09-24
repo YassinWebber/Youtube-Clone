@@ -1,7 +1,4 @@
 
-// Contexts Importing
-import { useSideBarContext } from "../contexts/sideBarContext";
-
 // Constants Importing
 import { sidebarSections } from "../constants";
 
@@ -15,12 +12,9 @@ import { GrayLine } from "./index";
 // Assets Importing
 import { DownArrowIcon, SubscriptionsIcon, UpArrowIcon } from '../assets';
 
-const LargeSidebar = () => {
+const LargeSidebar = ({ isLargeScreenOpened }) => {
     const defaultVisibleLinks = 7;
     const [ subsSecCollapsed, setSubsSecCollapsed ] = useState(true);
-
-
-    const { isLargeScreenOpened } = useSideBarContext();
 
     return (
         <div className={ `w-[240px] sidebar-height flex-col overflow-y-hidden hover:overflow-y-auto max-w-[240px] p-0 m-0 sidebar-scrollbar top-[54px] ${isLargeScreenOpened ? 'lg:flex' : 'lg:hidden'}` } style={ { scrollbarWidth: 'thin', scrollbarGutter: 'stable' } }>

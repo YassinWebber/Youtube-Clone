@@ -5,11 +5,7 @@ import { BurgerMenu, YoutubeLogo } from "../../assets/index";
 // Dependencies Importing 
 import { Link } from 'react-router-dom';
 
-// Contexts Importing
-import { useSideBarContext } from "../../contexts/sideBarContext";
-
-const HeaderLeftSide = () => {
-    const {toggle} = useSideBarContext()
+const HeaderLeftSide = ({ toggle }) => {
 
     return (
         <div className="flex h-full items-center">

@@ -56,15 +56,15 @@ export const SideBarLink = ({ label, icon, activedIcon, path, onClickFunction, i
         </Link>);
 };
 
-const SideBar = () => {
+const SideBar = ({ isLargeScreenOpened }) => {
 
     return (
         <>
             <div className="max-[1024px]:hidden">
-                <LargeSidebar />
+                <LargeSidebar isLargeScreenOpened={ isLargeScreenOpened } />
             </div>
             <div>
-                <CollapsedSidebar />
+                <CollapsedSidebar isLargeScreenOpened={ isLargeScreenOpened } />
             </div>
         </>
     );

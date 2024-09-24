@@ -4,14 +4,14 @@ import { HeaderLeftSide, SearchInput, CreateVideo, VideosNotification, UserProfi
 // Dependencies Importing
 import { useState } from 'react';
 
-const Header = () => {
+const Header = ({ toggle }) => {
 
     const [ openedDropDown, setOpenedDropDown ] = useState(-1);
 
     return (
         <div className="max-w-screen flex justify-between max-h-[54px] overflow-y-hidden items-center bg-[#0f0f0f] sm:px-[16px] px-[24px] flex-grow overflow-x-hidden max-w-screen" style={ { maxWidth: '100vw' } }>
 
-            <HeaderLeftSide />
+            <HeaderLeftSide toggle={ toggle } />
 
             <SearchInput />
             <div className="flex items-center gap-1">

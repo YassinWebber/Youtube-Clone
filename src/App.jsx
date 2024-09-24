@@ -1,22 +1,36 @@
 // Components Importing
-import { useEffect } from 'react';
 import { Header, HeaderLeftSide, LargeSidebar, SideBar } from './components';
-
-// Contexts Importing
-import { useSideBarContext } from './contexts/sideBarContext';
-
 
 // Pages Importing
 import { Home, Shorts } from './pages';
 
 // Dependencies Importing
-// import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 
 function App () {
 
-  const { isLargeScreenOpened, isSmallScreenOpened, setIsSmallScreenOpened, close } = useSideBarContext();
+  const [ isSmallScreenOpened, setIsSmallScreenOpened ] = useState(false);
+  const [ isLargeScreenOpened, setIsLargeScreenOpened ] = useState(true);
+
+  const toggle = () => {
+    if (isSmallScreen()) {
+      setIsSmallScreenOpened(s => !s);
+      console.log(`SmallScreenState: ${isSmallScreenOpened}`);
+    } else {
+      setIsLargeScreenOpened(l => !l);
+      console.log(`LargeScreenState: ${isLargeScreenOpened}`);
+    }
+  };
+
+  const close = () => {
+    if (isSmallScreen()) {
+      setIsSmallScreenOpened(false);
+    } else {
+      setIsLargeScreenOpened(false);
+    }
+  };
 
   const isSmallScreen = () => {
     if (window.innerWidth < 1024) return true;
@@ -42,7 +56,7 @@ function App () {
     <main className={ `relative max-w-screen grid grid-rows-[54px_1fr] grid-cols-[${isLargeScreenOpened ? '240' : '72'}px_1fr] max-[792px]:grid-cols-1 font-normal font-Roboto smallscreen-sidebar-opened` } style={ { scrollbarGutter: 'stable' } }>
 
       <div className="row-span-1 col-span-2 sticky top-0 z-10 max-w-screen " >
-        <Header />
+        <Header toggle={ toggle } />
       </div>
 
       <div>
@@ -73,7 +87,7 @@ function App () {
         <div
           className={ `col-span-1 sticky sidebar-height top-[54px] left-0 box-borders max-[792px]:hidden bg-[#0f0f0f]` }
         >
-          <SideBar />
+          <SideBar isLargeScreenOpened={ isLargeScreenOpened } />
         </div>
       </div>
 
