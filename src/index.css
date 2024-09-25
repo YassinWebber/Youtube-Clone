@@ -30,3 +30,11 @@ body {
     overflow-y: hidden;
     background-color: red;
 }
+
+.largeSidebarActivedPageGrid {
+    grid-template-columns: 240px 1fr;
+}
+
+.smallSidebarActivedPageGrid {
+    grid-template-columns: 72px 1fr;
+}

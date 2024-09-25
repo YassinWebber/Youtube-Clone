@@ -53,7 +53,7 @@ function App () {
   }, []);
 
   return (
-    <main className={ `relative max-w-screen grid grid-rows-[54px_1fr] grid-cols-[${isLargeScreenOpened ? '240' : '72'}px_1fr] max-[792px]:grid-cols-1 font-normal font-Roboto smallscreen-sidebar-opened` } style={ { scrollbarGutter: 'stable' } }>
+    <main className={ `relative max-w-screen grid grid-rows-[54px_1fr] ${isLargeScreenOpened ? 'largeSidebarActivedPageGrid' : 'smallSidebarActivedPageGrid'} max-[792px]:grid-cols-1 font-normal font-Roboto smallscreen-sidebar-opened` } style={ { scrollbarGutter: 'stable' } }>
 
       <div className="row-span-1 col-span-2 sticky top-0 z-10 max-w-screen " >
         <Header toggle={ toggle } />
